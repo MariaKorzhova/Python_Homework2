@@ -5,7 +5,7 @@
 N = int (input("Введите число N: "))
 k = 0
 q = 0
-while 2**k < N:
+while 2**k <= N:
     q = 2**k
     k = k + 1
     print(q)
